@@ -2,7 +2,7 @@
 print("Nhập số Kwh ")
 so_Kwh=int(input('so_Kwh ='))
 if so_Kwh <0:
-    print("Vui lòng nhập số kwh lớn hơn 0")
+    print("Số kwh phải lớn hoặc bằng 0")
 elif so_Kwh<=50:
     Tien_dien=so_Kwh*1678
 elif so_Kwh<=100:
