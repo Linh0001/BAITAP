@@ -5,7 +5,7 @@ b=int(input('b = '))
 # cả 2 số đều chia hết cho biến đó thì là ucln 
 for i in range(min(a,b),0,-1):
     if a%i==0 and b%i==0:
-        x=int((a*b)/i)
+        x=int((a*b)/i)   #BCNN(a,b)=(a*b)/UCLN(a,b)
         print("BCNN(a,b) =",x)
     
 
