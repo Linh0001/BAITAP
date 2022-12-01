@@ -1,4 +1,4 @@
-# Sử dụng biểu thức lamda để tính diện tích,chu vi hình tròn tham số r (bán kính)
+# Sử dụng biểu thức lamda để tính diện tích,chu vi (hình tròn , hình chữ nhật)
 import math
 sht =lambda r:math.pi*math.pow(r,2)
 pht =lambda r:2*math.pi*r
